@@ -1,0 +1,9 @@
+:root {
+  --clr-1: #000;
+  --clr-2: #fff;
+}
+
+html, body {
+  background-color: var(--clr-1);
+  color: var(--clr-2);
+}
