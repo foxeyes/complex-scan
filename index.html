@@ -1,21 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>Complex Scan</title>
-  <script src="https://uc-jsdk.web.app/re4ma/render/render.js" type="module" re-move></script>
-</head>
-<body>
-  <re-htm 
-    --header_txt="HEADER"
-    --footer_txt="FOOTER"
-    src="./htm/page-layout.htm">
-    <div>
-      <re-md src="./md/my-text.md"></re-md>
-    </div>
-  </re-htm>
-</body>
-</html>
+<script 
+  --title="Complex Scan"
+  --template="./tpl/main-template.html"
+  src="https://uc-jsdk.web.app/re4ma/render/tpl.js">
+</script>
+
+<re-htm 
+  --header_txt="HEADER"
+  --footer_txt="FOOTER"
+  src="./htm/page-layout.htm">
+  <div>
+    <re-md src="./md/my-text.md"></re-md>
+  </div>
+</re-htm>
